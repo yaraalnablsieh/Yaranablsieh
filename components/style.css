@@ -1,0 +1,114 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  background-color: hsl(217, 28%, 15%);
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 120px;
+}
+
+.nav a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  margin-left: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  width: 100%;
+  padding-bottom: 200px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bg-imag {
+  height: 300px;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  background-image: url("images/bg-curvy-desktop.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100%;
+}
+
+.hero-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.hero p {
+  margin: 20px 0;
+}
+
+.btn {
+  background: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  padding: 12px 24px;
+  border-radius: 30px;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* Features Section */
+.icons {
+  background-color: hsl(218, 28%, 13%);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  width: 50%;
+  gap: 30px;
+}
+.container {
+  background-color: hsl(218, 28%, 13%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.icons img {
+  width: 50px;
+  margin-bottom: 10px;
+}
